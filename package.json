@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "jest --coverage",
     "test2": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
