@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-echo 'insetall cross-env'
-npm install --save-dev cross-env
+echo 'install cross-env'
+npm install cross-env --save-dev
 echo 'run test'
 npm test
